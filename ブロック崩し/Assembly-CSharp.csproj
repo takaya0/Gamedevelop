@@ -37,9 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controller.cs" />
+     <Compile Include="Assets\Scripts\DataSender.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
      <Compile Include="Assets\Scripts\Game_Master.cs" />
+     <Compile Include="Assets\Scripts\StartLoad.cs" />
      <Compile Include="Assets\Scripts\Startshot.cs" />
+     <Compile Include="Assets\Scripts\TextDatafetcher.cs" />
      <Compile Include="Assets\Scripts\block_init.cs" />
      <Compile Include="Assets\Scripts\under_gameover.cs" />
     <Reference Include="UnityEngine">

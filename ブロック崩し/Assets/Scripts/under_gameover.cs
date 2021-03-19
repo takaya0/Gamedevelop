@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class under_gameover : MonoBehaviour
-{
+public class under_gameover : MonoBehaviour {
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+
     }
+
+    void OnCollisionEnter(Collision collision) => GameObject.Find("Master")
+        .GetComponent<Game_Master>()
+        .GameOver("失敗しちゃったね. また挑戦しよう.");
 }
